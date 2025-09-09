@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | kinoko1216 portfolio</title>
+    <link rel="stylesheet" href="design/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <h1 class="logo">kinoko1216 portfolio</h1>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="history.html">History</a></li>
+                    <li><a href="#projects">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">
+                <i class="fa fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section id="top" class="top-section">
+        <div class="slideshow-container">
+            <div class="slide active">
+                <img src="images/slide1.png" alt="スライド1">
+            </div>
+            <div class="slide">
+                <img src="images/slide2.png" alt="スライド2">
+            </div>
+            <div class="slide">
+                <img src="images/slide3.png" alt="スライド3">
+            </div>
+            <div class="slide">
+                <img src="images/slide4.png" alt="スライド4">
+            </div>
+            <div class="slide">
+                <img src="images/slide5.png" alt="スライド5">
+            </div>
+            <div class="slide">
+                <img src="images/slide6.png" alt="スライド6">
+            </div>
+        </div>
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="top-content">
+                <h2><strong>Kinoko_2K's Portfolio</strong></h2>
+            </div>
+        </div>
+        <div class="slide-indicators">
+            <span class="indicator active" data-slide="0"></span>
+            <span class="indicator" data-slide="1"></span>
+            <span class="indicator" data-slide="2"></span>
+            <span class="indicator" data-slide="3"></span>
+            <span class="indicator" data-slide="4"></span>
+            <span class="indicator" data-slide="5"></span>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/about.webp" alt="プロフィール写真">
+                </div>
+                <div class="about-text">
+                    <div class="personal-info">
+                        <div class="info-item">
+                            <span class="info-label">名前:</span>
+                            <span class="info-value">Kinoko_2K (@kinoko1216)</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">誕生日:</span>
+                            <span class="info-value">11月13日</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">趣味:</span>
+                            <span class="info-value">読書、ゲーム、タイピング</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">住所:</span>
+                            <span class="info-value">愛知県</span>
+                        </div>
+                    </div>
+                    <p>KinokoNetWorkというマイクラ鯖を運営しています。</p>
+                    <p>note.comでDiscord関連の記事やマイクラサーバーの記事を執筆しています。</p>
+                    <p>バグを見つけるのが上手いです。</p>
+                    <div class="social-links">
+                        <a href="https://x.com/kinoko1216"><i class="fab fa-twitter"></i></a>
+                        <a href="https://github.com/kinoko2k"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">スキル/資格</h2>
+            <div class="skills-content">
+                <div class="skills-section">
+                    <h3 class="sub-title">スキル</h3>
+                    <div class="skills-container">
+                        <div class="skill">
+                            <i class="fab fa-js"></i>
+                            <h4>JavaScript</h4>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width:60%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <i class="fab fa-java"></i>
+                            <h4>Java</h4>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width:60%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <i class="fab fa-python"></i>
+                            <h4>Python</h4>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width:60%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="certifications-section">
+                    <h3 class="sub-title">資格</h3>
+                    <div class="certifications-container">
+                        <div class="certification">
+                            <div class="cert-icon">
+                                <i class="fas fa-certificate"></i>
+                            </div>
+                            <div class="cert-info">
+                                <h4>ビジネス文書実務検定 1級</h4>
+                                <p class="cert-date">取得年月: 2023年5月</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">記事</h2>
+            <div class="projects-grid">
+                <iframe class="note-embed" src="https://note.com/embed/notes/nbf6ba5ef97cc" style="border: 0; display: block; max-width: 100%; width: 100%; padding: 0px; margin: 0; position: static; visibility: visible;" height="400"></iframe>
+
+                <iframe class="note-embed" src="https://note.com/embed/notes/nc627dbd2bc7a" style="border: 0; display: block; max-width: 100%; width: 100%; padding: 0px; margin: 0; position: static; visibility: visible;" height="400"></iframe>
+
+                <iframe class="note-embed" src="https://note.com/embed/notes/n78b37bd3b50d" style="border: 0; display: block; max-width: 100%; width: 100%; padding: 0px; margin: 0; position: static; visibility: visible;" height="400"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">お問い合わせ</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <h3>メール</h3>
+                        <p>info@kinokoroom.net</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-twitter"></i>
+                        <h3>Twitter</h3>
+                        <p>@kinoko1216</p>
+                        <a href="https://twitter.com/intent/follow?screen_name=kinoko1216" target="_blank" class="contact-link">フォローする</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-discord"></i>
+                        <h3>Discord</h3>
+                        <p>@kinoko1216</p>
+                        <a href="https://discord.com/users/925245386568896564" class="contact-link">DM</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="container">
+            <p>&copy; 2025 kinoko1216. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script/script.js"></script>
+    <script async src="https://note.com/scripts/embed.js" charset="utf-8"></script>
+</body>
+</html>
